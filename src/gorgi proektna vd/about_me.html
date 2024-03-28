@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+} */
+
+.img1 {
+  float: right;
+  width: 50%;
+  height: 100%;
+
+}
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+body {
+    margin:0;
+background-color: #030406;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: rgb(6, 2, 32);
+ 
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+
+
+}
+h2
+{
+    margin: 0;
+    padding:0 ;
+}
+</style>
+</head>
+<body>
+
+    
+    
+    <div class="navbar">
+        <a id="home" href="./index.html">Home</a>
+        <a id="about" href="./about_me.html">About me</a>
+        <a id="galery" href="./galerija.html">Gallery</a>
+        <a id="contact" href="./contact.html">Contact</a>
+      </div>
+
+
+
+<h2 style="clear:right">With New Modern Clearfix</h2>
+
+
+<div class="clearfix">
+    <img class="img1" src="img/slika2.jpg" >
+    <p style="margin-top: 50px;">ABOUT ME</p>
+    <p>Hello friends , in these few lines of text I would like to say a few things about myself and my lifestyle. Hello again my name is Gorgi Petrovski and I live in Skopje, Macedona. I am a student at the Faculty of Information Sciences and Computer Engineering in Skopje. The specific direction I fell in love with in my high school days is programming, and I see it as my future job. Like everyone else, I like to fill my free time with some of my hobbies or various interesting activities that I can do alone, but sometimes I'm also in the mood with company. One of my most favorite hobbies is photography, I enjoy doing this in my spare time, sometimes I take pictures at some parties or weddings. I often take pictures of my friends as well. I am an adventurous spirit and a passionate lover of nature and hiking. I enjoy long walks in nature and the natural beauties that my country offers. Often when I hike or visit a new place I like to take pictures. Apart from nature, I also like to travel around the world.</p>
+</div>
+
+</body>
+</html>
+
+

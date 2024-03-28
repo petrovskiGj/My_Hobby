@@ -1,0 +1,161 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>galery</title>
+    <script src="jq.js"></script> 
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+     <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+<style>
+
+#img1
+{
+    width: 100%;
+}
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+ 
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.p1 {
+    font-size: 90px;
+    color: #ddd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+* {
+  box-sizing: border-box;
+ 
+}
+
+.column {
+  float: left;
+  width: 32.50%;
+  padding: 10px;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  margin-top: 50px;
+  border: 1px solid rgb(149, 149, 149);
+  
+}
+#my
+{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+</head>
+<body>
+
+   
+    <div class="navbar">
+        <a id="home" href="./index.html">Home</a>
+        <a id="about" href="./about_me.html">About me</a>
+        <a id="galery" href="./galerija.html">Gallery</a>
+        <a id="contact" href="./contact.html">Contact</a>
+      </div>
+
+
+<h2 id="my"> MY GALLERY</h2>
+
+
+<div class="row">
+  <div class="column" style="background-color: rgb(236, 236, 236);">
+    <img src="img/img1.jpg" alt="Snow" style="width:100%" height="700px">
+    <div><p>Luxury view</p></div>
+  </div>
+  <div class="column" style="background-color:rgb(236, 236, 236) ;">
+    <img src="img/img2.jpg" alt="Forest" style="width:100%" height="700px">
+    <div><p>Beautiful beach view</p></div>
+  </div>
+  <div class="column" style="background-color:rgb(236, 236, 236) ;">
+    <img src="img/img3.jpg" alt="Mountains" style="width:100%" height="700px">
+    <div><p>Foggy mountain</p></div>
+  </div>
+  
+</div>
+
+<div class="row">
+    <div class="column" style="background-color: rgb(236, 236, 236);">
+      <img src="img/img4.jpg" alt="Snow" style="width:100%" height="700px">
+      <div><p>Working mood</p></div>
+    </div>
+    <div class="column" style="background-color:rgb(236, 236, 236) ;">
+      <img src="img/img5.jpg" alt="Forest" style="width:100%" height="700px">
+      <div><p>Man’s best friend</p></div>
+    </div>
+    <div class="column" style="background-color:rgb(236, 236, 236) ;">
+      <img src="img/img6.jpg" alt="Mountains" style="width:100%" height="700px">
+      <div><p>Hiking Company</p></div>
+    </div>
+    
+    
+</div>
+<div class="row">
+    <div class="column" style="background-color: rgb(236, 236, 236);">
+      <img src="img/img7.jpg" alt="Snow" style="width:100%" height="700px">
+      <div><p>Starry sky</p></div>
+    </div>
+    <div class="column" style="background-color:rgb(236, 236, 236) ;">
+      <img src="img/img8.jpg" alt="Forest" style="width:100%" height="700px">
+      <div><p>Wilderness</p></div>
+    </div>
+    <div class="column" style="background-color:rgb(236, 236, 236) ;">
+      <img src="img/img2.jpg" alt="Mountains" style="width:100%" height="700px">
+      <div><p>Beautiful beach view</p></div>
+    </div>
+    
+    
+</div>
+
+
+<script src="index.js"></script> 
+</body>
+</html>
